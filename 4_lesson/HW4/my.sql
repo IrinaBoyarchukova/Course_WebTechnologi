@@ -24,7 +24,7 @@ CREATE TABLE EMPLOYEE (
 );
 
 -- insert
-INSERT INTO EMPLOYEE VALUES (0001, 'Ирина', '16','Москва');
+INSERT INTO EMPLOYEE VALUES (0001, 'Ирина', '16','Moskva');
 INSERT INTO EMPLOYEE VALUES (0002, 'Дмитрий', '8','Moskva');
 INSERT INTO EMPLOYEE VALUES (0003, 'Анна', '18','Moskva');
 INSERT INTO EMPLOYEE VALUES (0004, 'Юля', '30','Moskva');
@@ -37,4 +37,4 @@ INSERT INTO EMPLOYEE VALUES (0010, 'Софья', '10','Moskva');
 INSERT INTO EMPLOYEE VALUES (0011, 'Андрей', '8','Санкт-Петербург');
 
 -- fetch 
-SELECT name FROM EMPLOYEE WHERE adress = 'Moskva'AND (age >= 18 AND  age < 30)
+SELECT name FROM EMPLOYEE WHERE adress = 'Moskva' AND (age >= 18 AND  age < 30);
