@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<books>
+    <book>
+        <name>Камил видит руками</name>
+        <author>Томаш Малковски</author>
+        <count>146</count>
+        <date>2019</date>
+        <price>863</price>
+    </book>
+    <book>
+        <name></name>
+        <author></author>
+        <count></count>
+        <date></date>
+        <price></price>
+    </book>
+</books>
